@@ -14,8 +14,10 @@ var score=0;
 
 $(document).on("click", "#decrease-5", function() {
 
+  if (score -5 >= ) {
   score=score-5;
   $("#score").html(score + " Points");
+}
 
 
 
